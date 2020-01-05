@@ -9,8 +9,74 @@
 <body>
 
 
-    
+    <!-- Section: Popular  -->
+    <section class="section section-popular">
+        <div class="container">
+            <div class="row">
+                <h4 class="center"><span class="teal-text">
+                    Popular
+                </span> Places</h4>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/resport1.jpg" alt="">
+                            <span class="card-title">Cancun, Mexico</span>
+                        </div>
+                        <div class="catd-content">
+                            <p>Lorem ipsum dolor sit amet consect etur adipisicing elit. Rem natus ipsam facere nam quidem magnam?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/resport1.jpg" alt="">
+                            <span class="card-title">Kiev, Ukraine</span>
+                        </div>
+                        <div class="catd-content">
+                            <p>Lorem ipsum dolor sit amet consect etur adipisicing elit. Rem natus ipsam facere nam quidem magnam?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/resport1.jpg" alt="">
+                            <span class="card-title">California, USA</span>
+                        </div>
+                        <div class="catd-content">
+                            <p>Lorem ipsum dolor sit amet consect etur adipisicing elit. Rem natus ipsam facere nam quidem magnam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center">
+                    <a href="#contact" class="btn btn-large grey darken-3">
+                        <i class="material-icons left">send</i> Contact for booking
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Import jQuery before materialize.js     -->
     <script src="/js/jquery-3.4.1.js"></script>
     <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Init Side nav
+            $('.button-commapse').sidenNav();
+
+            // 
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                transitition: 500,
+                internal: 6000
+            })
+        })
+    </script>
+
 </body>
 </html>
